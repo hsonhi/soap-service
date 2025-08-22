@@ -42,8 +42,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-	</build>
+			
 <plugin>
 	<groupId>org.codehaus.mojo</groupId>
 	<artifactId>jaxb2-maven-plugin</artifactId>
@@ -62,4 +61,6 @@
 		</sources>
 	</configuration>
 </plugin>
+		</plugins>
+	</build>
 </project>
