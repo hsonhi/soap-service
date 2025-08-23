@@ -22,6 +22,7 @@ public class CountryRepository {
 		spain.setPopulation(46704314);
 
 		countries.put(spain.getName(), spain);
+		countries.put(spain.getCapital(), spain);
 
 		Country poland = new Country();
 		poland.setName("Poland");
@@ -30,6 +31,7 @@ public class CountryRepository {
 		poland.setPopulation(38186860);
 
 		countries.put(poland.getName(), poland);
+		countries.put(poland.getCapital(), poland);
 
 		Country uk = new Country();
 		uk.setName("United Kingdom");
@@ -38,6 +40,7 @@ public class CountryRepository {
 		uk.setPopulation(63705000);
 
 		countries.put(uk.getName(), uk);
+		countries.put(uk.getCapital(), uk);
 	}
 
 	public Country findCountry(String name) {
