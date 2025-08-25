@@ -1,4 +1,4 @@
-## Building a WSDL-based SOAP web service with Spring
+## Building a WSDL-based SOAP Web Service with Spring
 
 ### Requirements
 
